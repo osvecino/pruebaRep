@@ -64,10 +64,10 @@ git p
    */
 
 
-  public Date(int dia, int mes, int año) {
-    this.day = dia;
-    this.month = mes;
-    this.year = año;
+  public Date(int day, int month, int year) {
+    this.day = day;
+    this.month = month;
+    this.year = year;
   }
 
   /**
