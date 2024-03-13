@@ -1,4 +1,4 @@
-package org.iis2024;
+git ppackage org.iis2024;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,6 +16,8 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
+
+  private int fieldAddedByCollaborator;
   private final int day;
   private final int month;
   private final int year;
@@ -25,7 +27,7 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
-  public int getDay() {
+  publit getDay() {
     return day;
   }
 
